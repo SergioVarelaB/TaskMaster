@@ -6,6 +6,7 @@
         android:layout_height="match_parent"
         app:flow_horizontalAlign="end"
         tools:context=".login"
+        style="@style/button_b"
         android:background="@color/white"
         android:orientation="vertical">
 
@@ -79,11 +80,8 @@
                 android:layout_margin="40dp"
                 android:layout_marginTop="52dp"
                 android:background="@drawable/button"
-                android:backgroundTint="@color/white"
                 android:elevation="5dp"
-                android:outlineAmbientShadowColor="@color/black"
                 android:padding="10dp"
-                android:shadowColor="@color/black"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:theme="@style/edit_text"
@@ -109,6 +107,7 @@
                 android:layout_width="163dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="72dp"
+                style="@style/button_b"
                 android:background="@drawable/button"
                 android:elevation="10dp"
                 android:fontFamily="@font/itim_regular"

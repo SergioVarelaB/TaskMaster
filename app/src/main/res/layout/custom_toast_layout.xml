@@ -8,6 +8,7 @@
 
     <RelativeLayout
         android:id="@+id/button_parent"
+        style="@style/button_b"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_centerHorizontal="true"
@@ -24,20 +25,16 @@
             android:layout_marginRight="25dp"
             app:cardCornerRadius="24dip">
 
+
+
             <RelativeLayout
                 android:id="@+id/button_click_parent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/white"
+                android:background="@drawable/button"
                 android:elevation="20dp"
                 android:clickable="true"
                 android:focusable="true">
-
-                <FrameLayout
-                    android:id="@+id/button_accent_border"
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/accent1" />
 
                 <TextView
                     android:id="@+id/toast_text"

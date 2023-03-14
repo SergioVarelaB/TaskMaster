@@ -11,21 +11,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
         <!-- Customize your theme here. -->
     </style>
-
-
     <style name="button_b" >
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/black</item>
-        <item name="colorPrimaryVariant">@color/reeed</item>-->
-        <item name="colorOnPrimary">@color/reeed</item>-->
-        <!-- Secondary brand color. -->
-        <item name="colorOnSecondary">@color/reeed</item>-->
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/reeed</item>-->
-        <!-- Customize your theme here. -->
-        <item name="android:elevation">@dimen/cardview_compat_inset_shadow</item>
-        <item name="strokeColor">@color/reeed</item>
-        <item name="strokeWidth">25dp</item>
     </style>
 
     <style name="edit_text" >

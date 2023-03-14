@@ -65,7 +65,7 @@
                                 android:fontFamily="@font/itim_regular"
                                 android:text="Nombre de usuario "
                                 android:textSize="25dp"
-                                android:layout_marginStart="10dp"
+                                android:layout_marginStart="20dp"
                                 android:textColor="@color/white">
                             </TextView>
 
@@ -74,13 +74,12 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="25dp"
                                 android:layout_marginEnd="75dp"
-                                android:textSize="25sp"
+                                android:textSize="20sp"
+                                android:singleLine="true"
                                 android:padding="10dp"
                                 android:theme="@style/edit_text"
                                 android:background="@drawable/button"
-                                android:shadowColor="@color/reeed"
-                                android:backgroundTint="@color/white"
-                                android:textColor="@color/black"
+                                android:textColor="@color/black2"
                                 android:layout_marginBottom="24dp"
                                 />
 
@@ -100,7 +99,7 @@
                                 android:fontFamily="@font/itim_regular"
                                 android:text="Correo electronico "
                                 android:textSize="25dp"
-                                android:layout_marginStart="10dp"
+                                android:layout_marginStart="20dp"
                                 android:textColor="@color/white">
                             </TextView>
 
@@ -108,14 +107,13 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="25dp"
+                                android:inputType="textEmailAddress"
                                 android:layout_marginEnd="75dp"
                                 android:padding="10dp"
-                                android:textSize="25sp"
+                                android:textSize="20sp"
                                 android:theme="@style/edit_text"
                                 android:background="@drawable/button"
-                                android:shadowColor="@color/reeed"
-                                android:backgroundTint="@color/white"
-                                android:textColor="@color/black"
+                                android:textColor="@color/black2"
                                 android:layout_marginBottom="24dp"
                                 />
 
@@ -135,7 +133,7 @@
                                 android:fontFamily="@font/itim_regular"
                                 android:text="Contraseña "
                                 android:textSize="25dp"
-                                android:layout_marginStart="10dp"
+                                android:layout_marginStart="20dp"
                                 android:textColor="@color/white">
                             </TextView>
 
@@ -144,13 +142,13 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="25dp"
                                 android:layout_marginEnd="75dp"
-                                android:textSize="25sp"
+                                android:inputType="textPassword"
+                                android:textSize="20sp"
+                                android:singleLine="true"
                                 android:padding="10dp"
                                 android:theme="@style/edit_text"
                                 android:background="@drawable/button"
-                                android:shadowColor="@color/reeed"
-                                android:backgroundTint="@color/white"
-                                android:textColor="@color/black"
+                                android:textColor="@color/black2"
                                 android:layout_marginBottom="24dp"
                                 />
 
@@ -170,7 +168,7 @@
                                 android:fontFamily="@font/itim_regular"
                                 android:text="Confirma la contraseña"
                                 android:textSize="25dp"
-                                android:layout_marginStart="10dp"
+                                android:layout_marginStart="20dp"
                                 android:textColor="@color/white">
                             </TextView>
 
@@ -180,12 +178,12 @@
                                 android:layout_marginStart="25dp"
                                 android:layout_marginEnd="75dp"
                                 android:padding="10dp"
-                                android:textSize="25sp"
+                                android:textSize="20sp"
+                                android:singleLine="true"
+                                android:inputType="textPassword"
                                 android:theme="@style/edit_text"
                                 android:background="@drawable/button"
-                                android:shadowColor="@color/reeed"
-                                android:backgroundTint="@color/white"
-                                android:textColor="@color/black"
+                                android:textColor="@color/black2"
                                 android:layout_marginBottom="24dp"
                                 />
 
