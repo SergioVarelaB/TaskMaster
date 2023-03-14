@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.OnBackPressedCallback
+import androidx.activity.OnBackPressedDispatcherOwner
+import androidx.activity.addCallback
 import androidx.navigation.fragment.findNavController
 import com.example.taskmaster.databinding.FragmentLoginHomeBinding
 
@@ -31,6 +34,12 @@ class loginHome : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // This callback will only be called when MyFragment is at least Started.
+        val callback = requireActivity().onBackPressedDispatcher.addCallback(this) {
+            // Handle the back button event
+            activity?.finish()
+        }
 
         binding.btnLogin.setOnClickListener {
             findNavController().navigate(R.id.action_loginHome_to_login)

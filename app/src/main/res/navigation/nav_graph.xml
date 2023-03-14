@@ -32,9 +32,6 @@
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" >
         <action
-            android:id="@+id/action_signUp_to_loginHome"
-            app:destination="@id/loginHome" />
-        <action
             android:id="@+id/action_signUp_to_login"
             app:destination="@id/login" />
     </fragment>
