@@ -198,7 +198,22 @@
                             android:orientation="horizontal">
 
                             <Button
-                                android:id="@+id/button2"
+                                android:id="@+id/btnGoBack"
+                                android:layout_width="163dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="20dp"
+                                android:layout_weight="0.5"
+                                android:background="@drawable/button"
+                                android:elevation="10dp"
+                                android:fontFamily="@font/itim_regular"
+                                android:text="Ir al login"
+                                android:textAllCaps="false"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/btnAccept"
                                 style="@style/button_b"
                                 android:layout_width="163dp"
                                 android:layout_height="50dp"
@@ -209,26 +224,13 @@
                                 android:elevation="20dp"
                                 android:fontFamily="@font/itim_regular"
                                 android:gravity="center"
-                                android:text="Login!"
+                                android:text="Aceptar!"
                                 android:textAllCaps="false"
                                 android:textColor="#FFFFFF"
                                 android:textStyle="bold"
                                 android:theme="@style/button_b" />
 
-                            <Button
-                                android:id="@+id/button1"
-                                android:layout_width="163dp"
-                                android:layout_height="50dp"
-                                android:layout_margin="20dp"
-                                android:layout_weight="0.5"
-                                android:background="@drawable/button"
-                                android:elevation="10dp"
-                                android:fontFamily="@font/itim_regular"
-                                android:text="Sign up"
-                                android:textAllCaps="false"
-                                android:layout_gravity="center"
-                                android:textColor="#000000"
-                                android:textStyle="bold" />
+
 
                         </LinearLayout>
 

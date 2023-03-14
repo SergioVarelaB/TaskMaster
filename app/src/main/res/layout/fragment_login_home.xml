@@ -81,7 +81,7 @@
 
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnLogin"
             style="@style/button_b"
             android:layout_width="163dp"
             android:layout_height="50dp"
@@ -97,14 +97,14 @@
             android:textStyle="bold"
             android:theme="@style/button_b"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/button1"
+            app:layout_constraintEnd_toStartOf="@+id/btnSignUp"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/con_task"
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btnSignUp"
             android:layout_width="163dp"
             android:layout_height="50dp"
             android:layout_marginEnd="32dp"

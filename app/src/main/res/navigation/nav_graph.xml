@@ -3,26 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/loginHome">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.taskmaster.loginHome"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/login"
+        android:name="com.example.taskmaster.login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_login_to_signUp"
+            app:destination="@id/signUp" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.taskmaster.SignUp"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/loginHome"
+        android:name="com.example.taskmaster.loginHome"
+        android:label="fragment_login_home"
+        tools:layout="@layout/fragment_login_home" >
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_loginHome_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_loginHome_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.taskmaster.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_loginHome"
+            app:destination="@id/loginHome" />
+        <action
+            android:id="@+id/action_signUp_to_login"
+            app:destination="@id/login" />
     </fragment>
 </navigation>
