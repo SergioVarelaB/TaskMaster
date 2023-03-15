@@ -36,6 +36,7 @@ class SignUp : Fragment() {
 
         binding.btnAccept.setOnClickListener {
             Toast(context).showCustomToast ("Hello! This is a custom Toast!", requireActivity())
+            findNavController().navigate(R.id.action_signUp_to_fragmentHome)
         }
 
         binding.btnGoBack.setOnClickListener{

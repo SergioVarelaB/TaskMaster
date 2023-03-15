@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_login_to_signUp"
             app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_login_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
     </fragment>
     <fragment
         android:id="@+id/loginHome"
@@ -34,6 +37,9 @@
         <action
             android:id="@+id/action_signUp_to_login"
             app:destination="@id/login" />
+        <action
+            android:id="@+id/action_signUp_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
     </fragment>
     <fragment
         android:id="@+id/fragmentSplashScreen"
@@ -44,4 +50,9 @@
             android:id="@+id/action_fragmentSplashScreen_to_loginHome"
             app:destination="@id/loginHome" />
     </fragment>
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.taskmaster.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
