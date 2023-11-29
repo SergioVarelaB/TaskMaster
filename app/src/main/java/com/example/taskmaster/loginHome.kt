@@ -16,7 +16,7 @@ import com.example.taskmaster.databinding.FragmentLoginHomeBinding
  */
 class loginHome : Fragment() {
 
-    private var _binding: FragmentLoginHomeBinding? = null
+    private var _binding: FragmentLoginHomeBinding? = null 
 
     // This property is only valid between onCreateView and
     // onDestroyView.
